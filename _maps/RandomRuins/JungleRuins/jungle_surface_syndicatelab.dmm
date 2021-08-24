@@ -1,0 +1,187 @@
+"ac" = (/obj/effect/turf_decal/trimline/purple/filled/line,/obj/item/ammo_casing/a357{dir = 8; pixel_y = -6},/obj/item/ammo_casing/a357{dir = 9; pixel_y = 6},/obj/item/ammo_casing/a357,/obj/item/ammo_casing/a357{dir = 9; pixel_x = 8; pixel_y = 2},/obj/item/ammo_casing/a357{dir = 10; pixel_x = -7; pixel_y = -1},/obj/item/ammo_casing/a357{dir = 10; pixel_x = 8; pixel_y = -6},/turf/open/floor/plasteel/dark,/area/space)
+"ad" = (/obj/effect/turf_decal/trimline/purple/filled/line,/obj/item/ammo_casing/c45,/obj/item/ammo_casing/c45{dir = 8; pixel_x = 9},/obj/item/ammo_casing/c45{dir = 5; pixel_x = -6; pixel_y = -9},/obj/item/gun/ballistic/automatic/c20r,/obj/effect/mob_spawn/human/corpse/syndicatesoldier,/turf/open/floor/plasteel/dark,/area/space)
+"ai" = (/obj/structure/fence{dir = 4},/turf/open/floor/plating/grass/jungle,/area/space)
+"aK" = (/obj/effect/turf_decal/trimline/red/filled/line{dir = 5},/turf/open/floor/plasteel/dark,/area/space)
+"bc" = (/obj/structure/sign/syndicate,/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"dr" = (/obj/effect/decal/cleanable/robot_debris,/obj/item/robot_module/syndicate_medical,/turf/open/floor/plasteel/dark,/area/space)
+"dy" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 6},/obj/machinery/rnd/production/circuit_imprinter/department/science,/turf/open/floor/plasteel/dark,/area/space)
+"eI" = (/obj/structure/fence/corner{dir = 9},/turf/open/floor/plating/grass/jungle,/area/space)
+"eJ" = (/obj/effect/decal/cleanable/blood/gibs/body,/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"fO" = (/obj/item/ammo_casing/c46x30mm{pixel_y = -4},/obj/item/ammo_casing/c46x30mm{pixel_x = -6; pixel_y = 1},/obj/item/ammo_casing/c46x30mm{dir = 8; pixel_x = -1; pixel_y = -8},/obj/item/ammo_casing/c46x30mm{pixel_x = -1; pixel_y = 8},/turf/open/floor/plating/grass/jungle,/area/space)
+"gm" = (/obj/machinery/sleeper/syndie,/turf/open/floor/plasteel/dark,/area/space)
+"gx" = (/obj/effect/turf_decal/trimline/purple/filled/line,/turf/open/floor/plasteel/dark,/area/space)
+"gS" = (/obj/item/stock_parts/cell/pulse/carbine,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"gZ" = (/obj/effect/decal/cleanable/glass/plasma,/obj/structure/grille/broken,/obj/structure/barricade/sandbags,/turf/open/floor/plasteel/dark,/area/space)
+"hg" = (/turf/open/floor/plating/airless{icon_state = "panelscorched"},/area/space)
+"iV" = (/obj/structure/sign/poster/contraband/c20r,/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"iY" = (/obj/item/radio/intercom,/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"la" = (/obj/structure/closet/secure_closet/security,/obj/item/clothing/under/syndicate/combat,/obj/item/clothing/head/beret/sec/officer,/obj/effect/turf_decal/trimline/red/filled/line{dir = 1},/obj/item/ammo_box/magazine/m10mm,/obj/item/ammo_box/magazine/m10mm,/obj/item/gun/energy/disabler,/turf/open/floor/plasteel/dark,/area/space)
+"lh" = (/obj/effect/decal/cleanable/blood/footprints,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"lq" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 4},/obj/machinery/rnd/production/protolathe,/obj/item/gun/ballistic/automatic/c20r,/obj/item/ammo_box/magazine/smgm45,/obj/item/ammo_box/magazine/smgm45,/obj/item/ammo_box/magazine/smgm45,/turf/open/floor/plasteel/dark,/area/space)
+"lt" = (/obj/item/gun/ballistic/automatic/wt550{pixel_y = 6},/obj/effect/decal/cleanable/blood,/obj/item/ammo_casing/c46x30mm{dir = 5; pixel_x = 11; pixel_y = 1},/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier,/turf/open/floor/plasteel/dark,/area/space)
+"mb" = (/obj/machinery/door/airlock/research,/turf/open/floor/plasteel/dark,/area/space)
+"mg" = (/obj/structure/fence,/turf/open/floor/plating/grass/jungle,/area/space)
+"mL" = (/obj/machinery/door/airlock/security{name = "Security Checkpoint"; req_access_txt = "150"},/turf/open/floor/plating/grass/jungle,/area/space)
+"oi" = (/obj/machinery/door/airlock/public,/turf/open/floor/plasteel/dark,/area/space)
+"ol" = (/obj/item/storage/backpack/duffelbag/syndie/surgery,/obj/structure/table,/turf/open/floor/plasteel/dark,/area/space)
+"ow" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
+"pi" = (/obj/item/ammo_casing/c9mm/ap{dir = 8; pixel_x = -5; pixel_y = -10},/obj/item/ammo_casing/c9mm/ap{dir = 6; pixel_x = -6; pixel_y = -6},/turf/open/floor/plasteel/dark,/area/space)
+"pl" = (/obj/machinery/computer/operating{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"qj" = (/obj/effect/mob_spawn/human/doctor,/obj/effect/decal/cleanable/blood/splatter,/obj/item/restraints/handcuffs,/turf/open/floor/plating/grass/jungle,/area/space)
+"qw" = (/obj/structure/chair/office{dir = 4},/obj/effect/mob_spawn/human/corpse/assistant,/turf/open/floor/plasteel/dark,/area/space)
+"qB" = (/obj/item/radio/intercom{pixel_y = 25},/turf/open/floor/plasteel/dark,/area/space)
+"rs" = (/obj/effect/mob_spawn/human/corpse/assistant,/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"rF" = (/obj/structure/fence/corner{dir = 6},/turf/open/floor/plating/grass/jungle,/area/space)
+"rH" = (/obj/machinery/computer/rdservercontrol,/turf/open/floor/plasteel/dark,/area/space)
+"rR" = (/obj/structure/table/glass,/obj/item/paper_bin,/turf/open/floor/plasteel/dark,/area/space)
+"sx" = (/obj/item/ammo_casing/c46x30mm{dir = 5; pixel_x = -4; pixel_y = -4},/obj/item/ammo_casing/c46x30mm{dir = 8; pixel_x = 8; pixel_y = 7},/obj/item/ammo_casing/c46x30mm,/turf/open/floor/plasteel/dark,/area/space)
+"sT" = (/obj/effect/mob_spawn/human/corpse/syndicatesoldier,/obj/item/gun/ballistic/automatic/c20r,/obj/item/ammo_casing/c45{dir = 8; pixel_x = 9; pixel_y = 11},/obj/item/ammo_casing/c45{dir = 5; pixel_x = -6; pixel_y = -9},/obj/item/ammo_casing/c45{dir = 4; pixel_x = -6; pixel_y = 9},/obj/item/ammo_casing/c45,/obj/item/ammo_casing/c45{dir = 4; pixel_x = -6; pixel_y = 9},/obj/item/ammo_casing/c45{pixel_x = -6; pixel_y = -9},/obj/item/ammo_casing/c45,/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"tL" = (/obj/item/target,/turf/open/floor/plasteel/dark,/area/space)
+"ui" = (/obj/effect/decal/cleanable/blood/old,/obj/effect/mob_spawn/human/corpse/syndicatesoldier,/obj/effect/decal/cleanable/blood/tracks{dir = 9},/turf/open/floor/plasteel/dark,/area/space)
+"ur" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 1},/obj/structure/table/glass,/turf/open/floor/plasteel/dark,/area/space)
+"us" = (/obj/machinery/button{pixel_y = -9},/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"vp" = (/obj/effect/turf_decal/trimline/purple/filled/line,/obj/item/ammo_casing/c45{dir = 5; pixel_x = -6; pixel_y = -9},/turf/open/floor/plasteel/dark,/area/space)
+"vY" = (/obj/machinery/door/airlock/security{name = "Security Checkpoint"; req_access_txt = "150"},/turf/open/floor/plasteel/dark,/area/space)
+"wu" = (/obj/effect/mob_spawn/human/corpse/charredskeleton{pixel_y = 5},/obj/effect/decal/cleanable/blood/old,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"wx" = (/obj/item/ammo_casing/c46x30mm{pixel_x = -1; pixel_y = 8},/obj/item/ammo_casing/c46x30mm{dir = 5; pixel_x = 11; pixel_y = 1},/obj/item/ammo_casing/c46x30mm{dir = 10},/obj/item/ammo_casing/c46x30mm{dir = 9; pixel_y = -8},/obj/item/ammo_casing/c46x30mm{dir = 5; pixel_x = -7; pixel_y = -2},/turf/open/floor/plating/grass/jungle,/area/space)
+"wA" = (/obj/effect/mob_spawn/human/doctor,/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"xb" = (/obj/machinery/door/airlock/research,/obj/structure/barricade/wooden/crude,/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"xp" = (/obj/item/ammo_casing/shotgun/improvised{pixel_x = -9; pixel_y = -3},/obj/effect/decal/cleanable/blood/tracks{dir = 5},/turf/open/floor/plasteel/dark,/area/space)
+"xI" = (/obj/structure/girder,/turf/open/floor/plating/airless,/area/space)
+"yp" = (/obj/effect/mob_spawn/human/corpse/assistant,/turf/open/floor/plasteel/dark,/area/space)
+"yz" = (/obj/effect/decal/cleanable/shreds,/turf/open/floor/plasteel/dark,/area/space)
+"yA" = (/obj/item/clothing/head/helmet/space/hardsuit/deathsquad,/turf/open/floor/plasteel/dark,/area/space)
+"yE" = (/obj/structure/table/glass,/obj/item/folder/syndicate/blue,/turf/open/floor/plasteel/dark,/area/space)
+"yN" = (/turf/open/floor/plating,/area/space)
+"yO" = (/obj/effect/mob_spawn/human/corpse/charredskeleton,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"zm" = (/obj/effect/turf_decal/trimline/red/filled/warning{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
+"zu" = (/obj/structure/chair/office{dir = 4},/obj/item/ammo_casing/c10mm/hp{dir = 8; pixel_y = 5},/obj/effect/decal/cleanable/blood/old,/obj/effect/turf_decal/trimline/red/filled/line{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
+"zM" = (/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"Aw" = (/obj/structure/table/glass,/obj/item/paper,/obj/item/pen/fountain,/turf/open/floor/plasteel/dark,/area/space)
+"Ay" = (/obj/machinery/rnd/server,/obj/effect/turf_decal/trimline/blue/filled/line{dir = 6},/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"AR" = (/obj/effect/decal/cleanable/blood/tracks,/obj/machinery/door/airlock/research,/turf/open/floor/plasteel/dark,/area/space)
+"BT" = (/obj/structure/table/reinforced,/obj/effect/decal/cleanable/glass,/obj/item/shard,/turf/open/floor/plasteel/dark,/area/space)
+"Ca" = (/obj/effect/mob_spawn/human/doctor,/obj/effect/decal/cleanable/blood,/obj/item/restraints/handcuffs,/turf/open/floor/plating/grass/jungle,/area/space)
+"DI" = (/obj/effect/mob_spawn/human/corpse/assistant,/obj/item/gun/ballistic/automatic/pistol,/obj/item/paper,/turf/open/floor/plasteel/dark,/area/space)
+"EZ" = (/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,/turf/open/floor/plasteel/dark,/area/space)
+"Fd" = (/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"Fg" = (/turf/open/floor/plating/airless,/area/space)
+"Fv" = (/obj/effect/mob_spawn/human/corpse/syndicatesoldier,/turf/open/floor/plasteel/dark,/area/space)
+"FG" = (/obj/structure/sign/departments/science,/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"FL" = (/turf/open/floor/plasteel/dark,/area/space)
+"GG" = (/obj/effect/mob_spawn/human/doctor,/obj/effect/decal/cleanable/blood/splatter,/turf/open/floor/plasteel/dark,/area/space)
+"Ht" = (/obj/effect/turf_decal/trimline/purple/filled/line,/obj/effect/mob_spawn/human/corpse/assistant,/obj/item/gun/ballistic/revolver,/turf/open/floor/plasteel/dark,/area/space)
+"Hx" = (/obj/structure/sign/poster/contraband/syndicate_recruitment{pixel_x = 4; pixel_y = 33},/turf/open/floor/plasteel/dark,/area/space)
+"HP" = (/obj/machinery/door/airlock/maintenance,/turf/open/floor/plating,/area/space)
+"IG" = (/turf/open/floor/plating/airless{icon_state = "platingdmg1"},/area/space)
+"IX" = (/obj/effect/turf_decal/trimline/purple/filled/line,/obj/effect/mob_spawn/human/doctor,/obj/item/gun/ballistic/automatic/c20r,/obj/item/ammo_casing/c45{dir = 5; pixel_x = -6; pixel_y = -9},/obj/item/ammo_casing/c45,/obj/item/ammo_casing/c45{dir = 8; pixel_x = 9},/obj/item/ammo_casing/c45{dir = 4; pixel_x = -6; pixel_y = 9},/obj/item/ammo_casing/c45{dir = 8; pixel_x = 9; pixel_y = 11},/turf/open/floor/plasteel/dark,/area/space)
+"IY" = (/obj/effect/turf_decal/trimline/red/filled/line{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"Jg" = (/obj/machinery/door/airlock/research,/obj/structure/barricade/wooden/crude,/turf/open/floor/plasteel/dark,/area/space)
+"Jk" = (/turf/open/floor/plating/airless{icon_state = "platingdmg3"},/area/space)
+"JD" = (/obj/effect/decal/cleanable/blood/tracks,/turf/open/floor/plasteel/dark,/area/space)
+"JJ" = (/obj/structure/sign/poster/contraband/energy_swords,/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"JN" = (/mob/living/simple_animal/hostile/mining_drone,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"Kh" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 10},/turf/open/floor/plasteel/dark,/area/space)
+"Kv" = (/obj/effect/mob_spawn/human/corpse/charredskeleton,/obj/effect/decal/cleanable/blood/old,/turf/open/floor/plating/grass/jungle,/area/space)
+"KB" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 4},/obj/machinery/computer/rdconsole/core{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
+"LR" = (/obj/item/ammo_casing/c45{dir = 8; pixel_x = 9; pixel_y = 11},/turf/open/floor/plasteel/dark,/area/space)
+"LV" = (/obj/effect/mob_spawn/human/engineer,/obj/effect/decal/cleanable/blood/splatter,/turf/open/floor/plating/grass/jungle,/area/space)
+"Md" = (/obj/item/clipboard,/obj/item/pen/blue,/obj/item/paper{pixel_x = -7; pixel_y = -1},/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"My" = (/obj/item/ammo_casing/shotgun/improvised{pixel_x = 7; pixel_y = 11},/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"Nx" = (/obj/machinery/button{pixel_y = -24},/turf/open/floor/plasteel/dark,/area/space)
+"NL" = (/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/space)
+"Oi" = (/obj/effect/decal/cleanable/cobweb,/turf/open/floor/plating,/area/space)
+"OP" = (/obj/effect/turf_decal/trimline/purple/filled/line,/obj/effect/mob_spawn/human/corpse/assistant,/obj/item/gun/ballistic/shotgun/doublebarrel/improvised/sawn{pixel_x = -4; pixel_y = 11},/turf/open/floor/plasteel/dark,/area/space)
+"Ps" = (/obj/structure/table/glass,/obj/item/modular_computer/laptop/preset,/turf/open/floor/plasteel/dark,/area/space)
+"Ro" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"Rz" = (/obj/item/ammo_casing/c10mm/hp{dir = 8; pixel_x = 8; pixel_y = 6},/obj/item/ammo_casing/c10mm/hp,/obj/item/gun/ballistic/automatic/pistol/no_mag{pixel_y = 12},/obj/effect/decal/cleanable/blood/tracks{dir = 8},/turf/open/floor/plasteel/dark,/area/space)
+"RW" = (/obj/structure/table/reinforced,/obj/machinery/door/window{dir = 4; req_access_txt = "150"},/obj/item/gun/ballistic/automatic/c20r/sc_c20r,/obj/item/paper,/turf/open/floor/plasteel/dark,/area/space)
+"SF" = (/obj/item/stock_parts/cell/pulse/carbine,/turf/open/floor/plasteel/dark,/area/space)
+"SH" = (/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,/obj/item/gun/ballistic/automatic/pistol/commander,/obj/effect/decal/cleanable/blood,/obj/item/paper/contract,/turf/open/floor/plasteel/dark,/area/space)
+"SN" = (/obj/machinery/telecomms/server,/obj/effect/turf_decal/trimline/blue/filled/line{dir = 1},/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"SR" = (/obj/machinery/computer/telecomms,/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"TB" = (/turf/open/floor/plating/grass/jungle,/area/space)
+"TJ" = (/obj/structure/bed,/turf/open/floor/plasteel/dark,/area/space)
+"TQ" = (/obj/structure/table/reinforced,/turf/open/floor/plasteel/dark,/area/space)
+"TV" = (/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier,/obj/item/gun/energy/pulse/pistol/loyalpin,/obj/item/grenade/c4{pixel_x = 13; pixel_y = 6},/turf/open/floor/plasteel/dark,/area/space)
+"TY" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 9},/turf/open/floor/plasteel/dark,/area/space)
+"Uc" = (/obj/effect/mob_spawn/human/doctor,/obj/effect/decal/cleanable/blood/old,/obj/item/restraints/handcuffs,/turf/open/floor/plating/grass/jungle,/area/space)
+"Uv" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 5},/obj/machinery/autolathe/hacked,/turf/open/floor/plasteel/dark,/area/space)
+"UC" = (/obj/effect/mob_spawn/human/corpse/assistant,/obj/item/gun/ballistic/shotgun/doublebarrel/improvised/sawn{pixel_x = -4; pixel_y = 11},/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"UU" = (/obj/structure/fence/corner,/turf/open/floor/plating/grass/jungle,/area/space)
+"Vt" = (/obj/machinery/telecomms/server/presets/medical,/obj/effect/turf_decal/trimline/blue/filled/line{dir = 10},/turf/open/floor/plasteel/dark,/area/space)
+"WG" = (/obj/structure/table/optable,/obj/effect/mob_spawn/human/corpse/assistant,/turf/open/floor/plasteel/dark,/area/space)
+"WP" = (/obj/effect/mob_spawn/human/corpse/assistant,/obj/item/gun/ballistic/shotgun/doublebarrel/improvised{pixel_y = 7},/obj/item/ammo_casing/shotgun/improvised{pixel_x = 8},/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"Xv" = (/obj/effect/decal/cleanable/blood,/obj/item/pda/syndicate,/obj/effect/mob_spawn/human/corpse/assistant,/turf/open/floor/plasteel/dark,/area/space)
+"XA" = (/obj/effect/decal/cleanable/blood/gibs/old,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"XX" = (/obj/effect/mob_spawn/human/doctor,/obj/item/gun/ballistic/derringer/traitor,/obj/effect/decal/cleanable/blood,/turf/open/floor/plasteel/dark,/area/space)
+"Yh" = (/obj/machinery/telecomms/server/presets/science,/obj/effect/turf_decal/trimline/blue/filled/line{dir = 1},/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"Ym" = (/obj/structure/table/reinforced,/obj/machinery/door/window{dir = 4; req_access_txt = "150"},/obj/item/mmi/syndie,/obj/item/paper,/turf/open/floor/plasteel/dark,/area/space)
+"Yp" = (/obj/machinery/portable_atmospherics/canister/bz,/turf/open/floor/plasteel/dark,/area/space)
+"Ys" = (/obj/machinery/telecomms/server/presets/common,/obj/effect/turf_decal/trimline/blue/filled/line{dir = 1},/turf/open/floor/plasteel/dark/telecomms,/area/space)
+"YL" = (/obj/effect/decal/cleanable/blood/splatter,/turf/open/floor/plasteel/dark,/area/space)
+"Zl" = (/obj/item/ammo_casing/c46x30mm,/obj/item/ammo_casing/c46x30mm{dir = 8; pixel_y = 7},/obj/item/ammo_casing/c46x30mm{pixel_y = -4},/obj/item/ammo_casing/c46x30mm{dir = 8; pixel_x = 8; pixel_y = 7},/obj/item/ammo_casing/c46x30mm{dir = 5; pixel_x = -4; pixel_y = 5},/turf/open/floor/plating/grass/jungle,/area/space)
+"ZZ" = (/obj/machinery/telecomms/message_server,/obj/effect/turf_decal/trimline/blue/filled/line{dir = 1},/turf/open/floor/plasteel/dark/telecomms,/area/space)
+
+(1,1,1) = {"
+TBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTB
+TBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTB
+TBTBTBeIaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiUUTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBNLFLFLFLFLFLFLFLFLzmTQFLFLFLFLtLNLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBNLFLFLFLFLFLFLFLFLzmTQFLtLFLFLFLNLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLRWFLFLFLFLFLFvFLFLzmTQFLFLtLFLFLNLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLYmFLFLFLFLFLFLFLypzmTQFLFLFLFLtLNLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLNLNLNLNLNLNLNLmbNLNLJJNLNLNLiYNLNLTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBNLFLFLrRFLFLFLbcTYFLRoRoururururRoUvNLTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBNLFLqwPsFLFLFLJgowFLFLDILRFLFLFLFLlqNLTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBNLFLyEAwFLFLFLNLowFLFLFLFLFLFLFLypKBNLTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBNLFLFLFLFLFLFLNLKhOPHtFLadgxIXvpacdyNLTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLNLNLNLNLNLNLNLNLNLJggZgZgZgZNLiVNLTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLFLFLFLFLFLFLsTFLFLFLFLFLFLFLXXFLNLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLFLFLFLFLFLFLFLFLFLFLFLyAFLFLFLFLFLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLFLFLFLFLFLFLFLFLdrFLFLeJFLFLFLFLFLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLFLFLFLFLFLWPxpFLFLFLFLyzFLFLFLFLFLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLNLNLxbNLNLNLARFGNLFLhgJkFgFLFLFLFLNLTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBNLrHFdSRNLHxJDFLNLNLIGIGJkhgxINLNLNLNLTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLNLFdFdUCNLFLMyFLNLYphghghgFLTVFLgmgmNLTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLAyFdFLVtNLSFFLFLNLFLFLFLFLFLFLFLFLFLNLTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLFdFdFdFdNLFLFLSHmbFLwApiFLFLFLFLFLFLNLTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLSNZZYsYhNLFLltFLNLplWGolNLNLNLNLNLNLNLNLNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBNLNLNLNLNLNLNLmbNLNLNLNLNLNLTJFLTJFLTJFLTJNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBEZFLFLFLFLFLFLFLXvYLqBFLoiFLFLFLFLFLFLFLNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBEZFLFLFLFLFLSFFLFLFLFLFLNLTJFLTJFLTJFLTJNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBNLFLFLFLrsFLFLFLFLFLFLFLNLFLFLFLFLFLFLFLNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBNLFLFLFLFLFLFLFLFLFLFLFLNLTJFLTJFLTJFLTJNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBEZFLFLFLFLFLGGFLsxFLFLFLNLFLFLFLFLFLFLFLNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBEZFLFLFLFLFLNxFLFLFLFLFLNLTJFLTJFLTJFLTJNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBNLNLEZEZNLNLushgJkIGJkFgNLNLNLNLNLNLNLNLNLTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBJNzMzMzMzMTBCaqjUcTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMlhzMwuTBTBTBTBTBTBTBNLNLNLNLNLNLNLNLTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMlhgSMdTBTBTBTBTBTBTBNLOiyNyNyNyNyNNLTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBKvzMzMlhzMzMTBZlfOwxTBTBTBHPyNyNyNyNyNyNNLTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMlhzMzMTBTBTBTBTBTBTBHPyNyNyNyNyNyNNLTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMXAzMzMTBTBTBTBTBTBLVNLyNyNyNyNyNyNNLTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMzMzMzMTBTBTBTBTBTBTBNLNLNLNLNLNLNLNLTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMyOzMzMTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBmgTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBzMzMzMzMzMTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmgTBTB
+TBTBTBeIaiaiaiaiaiaiaiaiaiaiaiNLNLvYNLNLzMzMzMzMzMaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiairFTBTB
+TBTBTBTBTBTBTBTBTBTBTBTBTBTBTBNLlaIYaKbczMzMzMzMzMTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTB
+TBTBTBTBTBTBTBTBTBTBTBTBTBTBTBmLuiRzzuBTzMzMzMzMzMTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTB
+TBTBTBTBTBTBTBTBTBTBTBTBTBTBTBNLEZEZEZNLzMzMzMzMzMTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTBTB
+"}
