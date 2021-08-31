@@ -63,11 +63,7 @@
 /area/ruin/powered)
 "bc" = (
 /obj/structure/sign/syndicate,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ruin/powered)
-"bx" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged/assault,
-/turf/open/floor/plating/grass/jungle,
+/turf/closed/indestructible/syndicate,
 /area/ruin/powered)
 "bD" = (
 /obj/effect/mob_spawn/human/doctor,
@@ -84,15 +80,6 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"cA" = (
-/obj/effect/turf_decal/box,
-/obj/machinery/portable_atmospherics/canister/toxins,
-/turf/open/floor/plating,
-/area/ruin/powered)
-"cK" = (
-/mob/living/simple_animal/hostile/nanotrasen/elite,
-/turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
 "dn" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
@@ -128,6 +115,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
+"dw" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/plating,
+/area/ruin/powered)
 "dy" = (
 /obj/machinery/rnd/production/circuit_imprinter/department/science,
 /obj/effect/turf_decal/lumos/tile/neutral/half{
@@ -141,11 +132,10 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/powered)
-"dG" = (
+"dO" = (
 /obj/structure/rack,
-/obj/item/storage/toolbox/syndicate{
-	name = "Syndicate Toolbox"
-	},
+/obj/item/circuitboard/computer/syndicatedoor,
+/obj/item/circuitboard/machine/protolathe/department/science,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "eF" = (
@@ -160,11 +150,6 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
-"eJ" = (
-/obj/effect/decal/cleanable/blood/gibs/body,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
 "fg" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -178,6 +163,10 @@
 	dir = 9
 	},
 /turf/open/floor/pod/dark,
+/area/ruin/powered)
+"fs" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/assault,
+/turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "fO" = (
 /obj/item/ammo_casing/c46x30mm{
@@ -196,10 +185,16 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/mob/living/simple_animal/hostile/nanotrasen/ranged/smg{
-	dir = 1
-	},
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
 /turf/open/floor/plating/grass/jungle,
+/area/ruin/powered)
+"gh" = (
+/obj/structure/rack,
+/obj/item/stock_parts/micro_laser/ultra,
+/obj/item/stock_parts/micro_laser/ultra,
+/obj/item/stock_parts/scanning_module/phasic,
+/obj/item/stock_parts/scanning_module/phasic,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "gm" = (
 /obj/machinery/sleeper/syndie,
@@ -246,14 +241,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"hS" = (
-/obj/structure/rack,
-/obj/item/stock_parts/matter_bin/super,
-/obj/item/stock_parts/matter_bin/super,
-/obj/item/stock_parts/manipulator/pico,
-/obj/item/stock_parts/manipulator/pico,
-/turf/open/floor/plating,
-/area/ruin/powered)
 "id" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular,
@@ -274,7 +261,7 @@
 /area/ruin/powered)
 "iY" = (
 /obj/item/radio/intercom,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/closed/indestructible/syndicate,
 /area/ruin/powered)
 "jd" = (
 /obj/machinery/door/airlock/hatch{
@@ -287,6 +274,19 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
+/area/ruin/powered)
+"jh" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	req_access_txt = "150"
+	},
+/obj/machinery/door/window{
+	dir = 8;
+	req_access_txt = "150"
+	},
+/obj/item/gun/ballistic/automatic/c20r/sc_c20r,
+/obj/item/paper,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "jk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -310,16 +310,6 @@
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ruin/powered)
-"jT" = (
-/obj/structure/rack,
-/obj/item/circuitboard/computer/research{
-	pixel_y = -2
-	},
-/obj/item/circuitboard/computer/rdservercontrol{
-	pixel_y = 5
-	},
-/turf/open/floor/plating,
-/area/ruin/powered)
 "jU" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 6
@@ -332,14 +322,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
-"kG" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged,
-/turf/open/floor/plating/grass/jungle,
-/area/ruin/powered)
-"kV" = (
-/mob/living/simple_animal/hostile/nanotrasen,
-/turf/open/floor/plating/dirt/jungle/dark,
 /area/ruin/powered)
 "la" = (
 /obj/structure/closet/secure_closet/security,
@@ -427,20 +409,8 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/powered)
-"mN" = (
-/obj/structure/rack,
-/obj/item/stock_parts/micro_laser/ultra,
-/obj/item/stock_parts/micro_laser/ultra,
-/obj/item/stock_parts/scanning_module/phasic,
-/obj/item/stock_parts/scanning_module/phasic,
-/turf/open/floor/plating,
-/area/ruin/powered)
-"mP" = (
-/mob/living/simple_animal/hostile/nanotrasen/elite,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"mV" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged/assault,
+"nG" = (
+/obj/machinery/door/airlock/research,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "oi" = (
@@ -452,9 +422,10 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"ou" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
-/turf/open/floor/plating/grass/jungle,
+"ot" = (
+/obj/effect/turf_decal/box,
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "ow" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -493,10 +464,12 @@
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
-"qk" = (
+"qv" = (
 /obj/structure/rack,
-/obj/item/circuitboard/computer/syndicatedoor,
-/obj/item/circuitboard/machine/protolathe/department/science,
+/obj/item/stock_parts/matter_bin/super,
+/obj/item/stock_parts/matter_bin/super,
+/obj/item/stock_parts/manipulator/pico,
+/obj/item/stock_parts/manipulator/pico,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "qw" = (
@@ -504,7 +477,7 @@
 	dir = 4
 	},
 /obj/effect/mob_spawn/human/corpse/assistant,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "qz" = (
 /obj/effect/decal/cleanable/blood,
@@ -516,6 +489,9 @@
 	pixel_y = 25
 	},
 /turf/open/floor/plasteel/dark,
+/area/ruin/powered)
+"qP" = (
+/turf/closed/indestructible/syndicate,
 /area/ruin/powered)
 "rk" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
@@ -541,12 +517,7 @@
 "rR" = (
 /obj/structure/table/glass,
 /obj/item/paper_bin,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"sk" = (
-/obj/effect/turf_decal/box,
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/open/floor/plating,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "sx" = (
 /obj/item/ammo_casing/c46x30mm{
@@ -560,6 +531,14 @@
 	pixel_y = 7
 	},
 /obj/item/ammo_casing/c46x30mm,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered)
+"sL" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/powered)
+"sR" = (
+/obj/structure/table/glass,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "sS" = (
@@ -633,9 +612,10 @@
 /obj/machinery/atmospherics/pipe/manifold4w/orange/hidden,
 /turf/open/floor/plating,
 /area/ruin/powered)
-"tL" = (
-/obj/item/target,
-/turf/open/floor/plasteel/dark,
+"ua" = (
+/obj/structure/rack,
+/obj/item/circuitboard/computer/xenobiology,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "ui" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -658,35 +638,28 @@
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/powered)
-"uN" = (
-/obj/structure/table/glass,
-/turf/open/floor/plasteel/dark,
+"uQ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	req_access_txt = "150"
+	},
+/obj/item/energy_katana,
+/obj/item/paper,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "uX" = (
 /obj/item/disk/design_disk/adv,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"vj" = (
-/obj/structure/rack,
-/obj/item/storage/part_replacer/cargo,
-/turf/open/floor/plating,
-/area/ruin/powered)
 "vp" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/machinery/porta_turret/syndicate,
 /obj/item/ammo_casing/c45{
 	dir = 5;
 	pixel_x = -6;
 	pixel_y = -9
 	},
-/obj/machinery/porta_turret/syndicate{
-	dir = 6
-	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"vD" = (
-/obj/structure/rack,
-/obj/item/circuitboard/computer/xenobiology,
-/turf/open/floor/plating,
 /area/ruin/powered)
 "vY" = (
 /obj/machinery/door/airlock/security{
@@ -703,19 +676,6 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"wt" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window{
-	req_access_txt = "150"
-	},
-/obj/machinery/door/window{
-	dir = 8;
-	req_access_txt = "150"
-	},
-/obj/item/gun/ballistic/automatic/c20r/sc_c20r,
-/obj/item/paper,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "wu" = (
@@ -764,12 +724,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
 /area/ruin/powered)
-"wM" = (
-/mob/living/simple_animal/hostile/nanotrasen/elite{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
 "xb" = (
 /obj/machinery/power/apc/syndicate{
 	dir = 8;
@@ -797,6 +751,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
+"xG" = (
+/turf/open/floor/wood,
+/area/ruin/powered)
+"xH" = (
+/mob/living/simple_animal/hostile/nanotrasen/elite,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/powered)
 "xI" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
@@ -810,12 +771,13 @@
 /turf/open/floor/pod/dark,
 /area/ruin/powered)
 "yp" = (
-/obj/effect/mob_spawn/human/corpse/assistant,
-/turf/open/floor/plasteel/dark,
+/obj/item/weldingtool/experimental,
+/obj/item/clothing/mask/gas/welding,
+/turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
-"yz" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/floor/plasteel/dark,
+"yq" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/assault,
+/turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
 "yA" = (
 /obj/effect/turf_decal/stripes/line{
@@ -855,7 +817,7 @@
 "yE" = (
 /obj/structure/table/glass,
 /obj/item/disk/design_disk/adv,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "yJ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
@@ -878,9 +840,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"yN" = (
-/turf/open/floor/plating,
-/area/ruin/powered)
 "yO" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -890,15 +849,9 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/powered)
-"yY" = (
-/obj/structure/sign/warning/biohazard,
-/turf/closed/indestructible/syndicate,
-/area/ruin/powered)
-"zm" = (
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+"zf" = (
+/obj/structure/sign/departments/medbay/alt,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/powered)
 "zu" = (
 /obj/structure/chair/office{
@@ -933,7 +886,7 @@
 /obj/structure/table/glass,
 /obj/item/paper,
 /obj/item/pen/fountain,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "Ay" = (
 /obj/machinery/rnd/server,
@@ -947,10 +900,11 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "AP" = (
-/obj/machinery/door/airlock/research,
-/obj/effect/turf_decal/trimline/purple/filled/corner,
-/obj/effect/turf_decal/trimline/purple/filled/corner{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
@@ -982,10 +936,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/suit/space/syndicate/black,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/powered)
-"BN" = (
-/obj/structure/sign/departments/medbay/alt,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/powered)
 "BT" = (
 /obj/structure/table/reinforced,
@@ -1020,6 +970,11 @@
 /obj/item/paper,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/plasteel/dark,
+/area/ruin/powered)
+"EL" = (
+/mob/living/simple_animal/hostile/nanotrasen,
+/obj/item/clothing/mask/gas/welding,
+/turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
 "EU" = (
 /obj/structure/table/reinforced,
@@ -1081,8 +1036,11 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Fv" = (
-/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
-/turf/open/floor/plasteel/dark,
+/mob/living/simple_animal/hostile/nanotrasen,
+/obj/item/grenade/c4{
+	pixel_x = 15
+	},
+/turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
 "Fw" = (
 /obj/structure/chair{
@@ -1090,17 +1048,22 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
+"FB" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/powered)
 "FG" = (
 /obj/structure/sign/departments/science,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/powered)
-"FJ" = (
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
-/obj/effect/decal/cleanable/blood,
-/obj/item/gun/ballistic/automatic/wt550{
-	pixel_y = 6
+"FL" = (
+/obj/machinery/porta_turret/syndicate{
+	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+/turf/open/floor/wood,
 /area/ruin/powered)
 "FR" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -1128,6 +1091,10 @@
 /obj/effect/mob_spawn/human/doctor,
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/item/storage/firstaid/ancient,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered)
+"GH" = (
+/mob/living/simple_animal/hostile/nanotrasen/elite,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Hm" = (
@@ -1163,12 +1130,6 @@
 "HP" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
-/area/ruin/powered)
-"IA" = (
-/obj/machinery/porta_turret/syndicate{
-	dir = 5
-	},
-/turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "IG" = (
 /turf/open/floor/plating/airless{
@@ -1231,7 +1192,7 @@
 "Jg" = (
 /obj/machinery/door/airlock/research,
 /obj/structure/barricade/wooden/crude,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/wood,
 /area/ruin/powered)
 "Jk" = (
 /turf/open/floor/plating/airless{
@@ -1249,7 +1210,7 @@
 /area/ruin/powered)
 "JJ" = (
 /obj/structure/sign/poster/contraband/energy_swords,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/closed/indestructible/syndicate,
 /area/ruin/powered)
 "JN" = (
 /turf/open/floor/plating/dirt/jungle/dark,
@@ -1269,10 +1230,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"Kf" = (
-/obj/effect/turf_decal/box,
-/turf/open/floor/plating,
-/area/ruin/powered)
 "Kh" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 10
@@ -1284,6 +1241,10 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
+"Kx" = (
+/obj/structure/sign/syndicate,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/powered)
 "KB" = (
 /obj/machinery/computer/rdconsole/core{
 	dir = 8
@@ -1291,10 +1252,6 @@
 /obj/effect/turf_decal/lumos/tile/neutral/half{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"Lv" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "LR" = (
@@ -1334,10 +1291,6 @@
 	id = "caravansyndicate3_bridge"
 	},
 /turf/open/floor/plating,
-/area/ruin/powered)
-"MP" = (
-/obj/machinery/door/airlock/research/glass,
-/turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Nr" = (
 /obj/structure/chair/comfy/shuttle{
@@ -1429,19 +1382,17 @@
 "Ps" = (
 /obj/structure/table/glass,
 /obj/item/modular_computer/laptop/preset,
+/turf/open/floor/wood,
+/area/ruin/powered)
+"PQ" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"PY" = (
-/obj/item/storage/toolbox/mechanical,
-/turf/open/floor/plating/grass/jungle,
-/area/ruin/powered)
-"Qi" = (
-/obj/item/weldingtool/experimental,
-/obj/item/clothing/mask/gas/welding,
-/turf/open/floor/plating/grass/jungle,
+"PR" = (
+/mob/living/simple_animal/hostile/nanotrasen,
+/turf/open/floor/plating/dirt/jungle/dark,
 /area/ruin/powered)
 "Qt" = (
-/obj/item/card/id/ert/deathsquad,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Qw" = (
@@ -1500,12 +1451,21 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Sy" = (
-/obj/structure/table/reinforced,
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plasteel/dark,
+/obj/structure/rack,
+/obj/item/circuitboard/computer/research{
+	pixel_y = -2
+	},
+/obj/item/circuitboard/computer/rdservercontrol{
+	pixel_y = 5
+	},
+/turf/open/floor/plating,
 /area/ruin/powered)
 "SF" = (
 /obj/item/stock_parts/cell/pulse/carbine,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered)
+"SG" = (
+/mob/living/simple_animal/hostile/nanotrasen,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "SH" = (
@@ -1545,10 +1505,6 @@
 /obj/machinery/computer/telecomms,
 /turf/open/floor/plasteel/dark/telecomms,
 /area/ruin/powered)
-"SS" = (
-/obj/machinery/door/airlock/research,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
 "SW" = (
 /obj/effect/mob_spawn/human/scientist,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -1559,9 +1515,6 @@
 "Th" = (
 /obj/machinery/aug_manipulator,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered)
-"Ty" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/powered)
 "TG" = (
 /obj/machinery/computer/crew{
@@ -1591,8 +1544,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "TQ" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "TU" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
@@ -1615,6 +1567,13 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
+/area/ruin/powered)
+"Ub" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/syndicate{
+	name = "Syndicate Toolbox"
+	},
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Uc" = (
 /obj/machinery/power/smes{
@@ -1643,15 +1602,6 @@
 /obj/item/clothing/shoes/sneakers/black,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
-"Uo" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window{
-	req_access_txt = "150"
-	},
-/obj/item/mmi/syndie,
-/obj/item/paper,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered)
 "Uv" = (
 /obj/machinery/autolathe/hacked,
 /obj/effect/turf_decal/lumos/tile/neutral/half{
@@ -1672,8 +1622,7 @@
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
 "Vk" = (
-/obj/machinery/door/window/eastleft,
-/turf/open/floor/plasteel/dark,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/powered)
 "Vt" = (
 /obj/machinery/telecomms/server/presets/medical,
@@ -1682,8 +1631,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
-"Wv" = (
-/turf/closed/indestructible/syndicate,
+"VV" = (
+/obj/effect/turf_decal/box,
+/obj/machinery/portable_atmospherics/canister/toxins,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Wx" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -1723,6 +1674,11 @@
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/plating/dirt/jungle/dark,
 /area/ruin/powered)
+"XE" = (
+/obj/structure/rack,
+/obj/item/storage/part_replacer/cargo,
+/turf/open/floor/plating,
+/area/ruin/powered)
 "XT" = (
 /obj/item/stack/marker_beacon{
 	anchored = 1;
@@ -1748,7 +1704,8 @@
 	},
 /turf/open/floor/plasteel/dark/telecomms,
 /area/ruin/powered)
-"Ym" = (
+"Yl" = (
+/obj/machinery/door/airlock/research/glass,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Yp" = (
@@ -1816,9 +1773,7 @@
 	pixel_x = -4;
 	pixel_y = 5
 	},
-/mob/living/simple_animal/hostile/nanotrasen/ranged/smg{
-	dir = 1
-	},
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/powered)
 "Zr" = (
@@ -2377,7 +2332,7 @@ YV
 YV
 YV
 YV
-ou
+sL
 YV
 YV
 YV
@@ -2493,9 +2448,9 @@ YV
 YV
 YV
 YV
-YV
-YV
-YV
+yp
+Fv
+FB
 YV
 YV
 YV
@@ -2549,17 +2504,17 @@ YV
 YV
 YV
 YV
-ou
+sL
 YV
-YV
-YV
-YV
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
 YV
 YV
 YV
@@ -2612,27 +2567,27 @@ YV
 YV
 YV
 YV
+qP
+qP
+Qt
+Qt
+qP
+xG
+xG
+xG
+xG
+qP
+qP
+qP
+qP
+qP
+qP
 YV
-Wv
-Wv
-Wv
-Ty
-Ym
-Ym
-Ym
-Ym
-Ty
-Wv
-Wv
-Wv
-Wv
-Wv
-YV
-Wv
-Wv
-Wv
-Wv
-Wv
+qP
+qP
+qP
+qP
+qP
 YV
 YV
 YV
@@ -2673,36 +2628,36 @@ YV
 YV
 YV
 YV
-Wv
-Wv
-Wv
-Ym
-Ym
-Ty
-Ym
+qP
+qP
+Qt
+Qt
+Qt
+qP
+xG
 qw
 yE
-Ym
-Ty
-Ym
+xG
+qP
+Qt
 Fw
 Fw
-Ym
-Ty
-Wv
-Wv
+Qt
+Vk
+qP
+qP
 Ay
 Fd
 SN
-Ty
+Vk
 jv
 jv
-Ty
-Ty
+Vk
+Vk
 jv
 jv
-Ty
-bx
+Vk
+yq
 YV
 YV
 YV
@@ -2735,35 +2690,35 @@ YV
 YV
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 rR
 Ps
 Aw
-Ym
-Ty
+xG
+qP
 aA
-uN
-uN
-Ym
-Ty
+sR
+sR
+Qt
+Vk
 rH
 Fd
 Fd
 Fd
 ZZ
-Ty
-Ym
-Ym
-Lv
-Ym
-Ym
-Ym
-Ty
+Vk
+Qt
+Qt
+PQ
+Qt
+Qt
+Qt
+Vk
 YV
 YV
 YV
@@ -2797,34 +2752,34 @@ YV
 YV
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
-Ym
-Ym
-Ym
-Ym
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
+xG
+xG
+xG
+xG
+qP
 aA
-uN
-uN
-Ym
-Ty
+sR
+sR
+Qt
+Vk
 Fd
 Fd
 uX
 Fd
 Ys
-Ty
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
+Vk
+Qt
+Qt
+Qt
+Qt
+Qt
+Qt
 jv
 YV
 YV
@@ -2835,10 +2790,10 @@ YV
 YV
 YV
 YV
-Ty
-Ty
+Vk
+Vk
 vY
-Ty
+Vk
 "}
 (17,1,1) = {"
 YV
@@ -2848,7 +2803,7 @@ YV
 YV
 YV
 YV
-cK
+xH
 YV
 YV
 YV
@@ -2859,34 +2814,34 @@ YV
 YV
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
-wt
-Ym
-Ym
-IA
-Ty
-Ym
+qP
+Qt
+Qt
+Qt
+Qt
+qP
+jh
+xG
+xG
+xG
+qP
+Qt
 eF
 eF
-Ym
-Ty
+Qt
+Vk
 SR
 UC
 Vt
 Fd
 Yh
-Ty
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
+Vk
+Qt
+Qt
+Qt
+Qt
+Qt
+Qt
 jv
 YV
 YV
@@ -2897,7 +2852,7 @@ YV
 YV
 YV
 YV
-Ty
+Vk
 la
 ui
 EZ
@@ -2921,35 +2876,35 @@ YV
 YV
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
-Uo
-Ym
-Ym
-Ym
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
+uQ
+xG
+xG
+FL
+qP
 Hm
 Hm
 Hm
 AI
-Ty
-Ty
+Vk
+Vk
 Jz
-Ty
-Ty
-Ty
-Ty
-Ym
-Ym
+Vk
+Vk
+Vk
+Vk
+Qt
+Qt
 rs
-Ym
-Ym
-Ym
-Ty
+Qt
+Qt
+Qt
+Vk
 YV
 YV
 YV
@@ -2982,36 +2937,36 @@ YV
 YV
 YV
 YV
-Qi
-yY
-Ym
-Ym
-Ym
-Ym
-Ty
+YV
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 bc
 Jg
-Ty
-Ty
-Ty
-Ym
-Ym
-Ym
+qP
+qP
+qP
+Qt
+Qt
+Qt
 WP
-Ty
+Vk
 Hx
-Ym
+Qt
 SF
-Ym
-Ym
-Ty
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ty
+Qt
+Qt
+Vk
+Qt
+Qt
+Qt
+Qt
+Qt
+Qt
+Vk
 YV
 YV
 YV
@@ -3021,7 +2976,7 @@ YV
 YV
 YV
 YV
-Ty
+Vk
 aK
 zu
 EZ
@@ -3044,33 +2999,33 @@ YV
 YV
 YV
 YV
-kG
-Wv
-Ym
-Ym
-Fv
-Ym
-Ty
+EL
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 TY
 ow
 ow
 Kh
-Ty
+Vk
 sT
-Ym
-Ym
+Qt
+Qt
 xp
 AR
 JD
 My
-mV
-Ym
+fs
+Qt
 lt
-SS
-Ym
+nG
+Qt
 SF
-Ym
-Ym
+Qt
+Qt
 GG
 Nx
 us
@@ -3083,10 +3038,10 @@ YV
 YV
 YV
 YV
-Ty
-bc
+Vk
+Kx
 BT
-Ty
+Vk
 "}
 (21,1,1) = {"
 YV
@@ -3106,35 +3061,35 @@ YV
 YV
 YV
 YV
-PY
-Wv
-Ym
-Ym
-Ym
-Ym
+YV
+qP
+Qt
+Qt
+Qt
+Qt
 AP
 dn
-Ym
-Ym
+Qt
+Qt
 OP
-Ty
-Ym
-Ym
-Ym
-FJ
+Vk
+Qt
+Qt
+Qt
+Qt
 FG
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
 SH
-Ym
-Ty
-Ym
-Ym
-mP
-Ym
-Ym
-Ym
+Qt
+Vk
+Qt
+Qt
+GH
+Qt
+Qt
+Qt
 hg
 JN
 JN
@@ -3169,34 +3124,34 @@ YV
 YV
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-yp
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 Ro
-Ym
-Ym
+Qt
+Qt
 Ht
-Ty
-Ym
-Ym
+Vk
+Qt
+Qt
 dr
-Ym
-Ty
-Ty
-Ty
-BN
-MP
-Ty
-Ty
+Qt
+Vk
+Vk
+Vk
+zf
+Yl
+Vk
+Vk
 Xv
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
 sx
-Ym
+Qt
 Jk
 JN
 JN
@@ -3219,46 +3174,46 @@ ai
 YV
 YV
 XT
-yN
-yN
-yN
-yN
-yN
-yN
-yN
-yN
-yN
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
 XT
 YV
 YV
-Wv
-zm
-zm
-zm
-zm
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 Ro
 DI
-Ym
+Qt
 TU
 cv
-Ym
-Ym
-Ym
-Ym
-Ym
-Ty
+Qt
+Qt
+Qt
+Qt
+Qt
+Vk
 Yp
-Ym
+Qt
 Rq
 pl
-Ty
+Vk
 YL
-Ym
-Ym
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
+Qt
+Qt
 IG
 JN
 lh
@@ -3269,7 +3224,7 @@ XA
 JN
 JN
 JN
-kV
+PR
 JN
 JN
 JN
@@ -3280,7 +3235,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 dA
 sZ
 sZ
@@ -3290,37 +3245,37 @@ sZ
 sZ
 sZ
 JP
-yN
+TQ
 YV
 YV
-Wv
-TQ
-TQ
-Sy
-Vk
+qP
+Qt
+Qt
+Qt
+Qt
 JJ
 ur
 LR
-Ym
+Qt
 ad
 gZ
-Ym
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
+Qt
 hg
 IG
 hg
-Ym
+Qt
 wA
 WG
-Ty
+Vk
 qB
-Ym
-Ym
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
+Qt
+Qt
 Jk
 JN
 JN
@@ -3342,47 +3297,47 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 vZ
-yN
+TQ
 GE
 GE
 GE
-yN
+TQ
 vZ
 Pr
-yN
+TQ
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 ur
-Ym
-Ym
+Qt
+Qt
 gx
 gZ
-Ym
-Ym
-eJ
-yz
+Qt
+Qt
+Qt
+Qt
 Jk
 IG
 hg
-Ym
+Qt
 pi
 ol
-Ty
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
+Vk
+Qt
+Qt
+Qt
+Qt
+Qt
+Qt
 Fg
 JN
 wu
@@ -3417,35 +3372,35 @@ Pr
 XT
 YV
 YV
-Wv
-Ym
-tL
-Ym
-Ym
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 ur
-Ym
-Ym
+Qt
+Qt
 IX
 gZ
-Ym
-Ym
 Qt
-Ym
+Qt
+Qt
+Qt
 Fg
 Jk
 hg
-Ym
-Ym
-Ty
-Ty
+Qt
+Qt
+Vk
+Vk
 oi
-Ty
-Ty
-Ty
-Ty
-Ty
-Wv
+Vk
+Vk
+Vk
+Vk
+Vk
+qP
 YV
 JN
 YV
@@ -3466,7 +3421,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 Wx
 xb
@@ -3476,38 +3431,38 @@ zO
 Gu
 Wx
 Pr
-yN
+TQ
 YV
 YV
-Wv
-Ym
-Ym
-tL
-Ym
-Ty
+qP
+Qt
+Qt
+Qt
+Qt
+qP
 ur
-Ym
-Ym
+Qt
+Qt
 vp
 gZ
-Ym
-Ym
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
+Qt
+Qt
 hg
-Ym
-Ym
+Qt
+Qt
 RT
-Ty
+Vk
 jm
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Wv
+qP
 Ca
 JN
 YV
@@ -3528,7 +3483,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 Wx
 wI
@@ -3538,38 +3493,38 @@ sS
 Nr
 Wx
 Pr
-yN
+TQ
 YV
 YV
-Wv
-Ym
-Ym
-tL
-Ym
+qP
+qP
+Qt
+Qt
+Qt
 iY
 hr
 FR
 SW
 ac
-Ty
+Vk
 XX
-Ym
-Ym
-Ym
-Ym
+Qt
+Qt
+Qt
+Qt
 xI
 TV
-Ym
-Ym
-Ty
+Qt
+Qt
+Vk
 jm
-Ym
-Ym
-wM
-Ym
-Ym
-Ym
-Wv
+Qt
+Qt
+Qt
+Qt
+Qt
+Qt
+qP
 qj
 JN
 YV
@@ -3603,35 +3558,35 @@ Pr
 XT
 YV
 YV
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
+YV
+qP
+qP
+Qt
+Qt
+qP
 Uv
 lq
 KB
 dy
 iV
-Ym
-Ym
-Ym
-Ym
-Ym
-Ty
-Ym
-Ym
-Ym
-Ty
+Qt
+Qt
+Qt
+Qt
+Qt
+Vk
+Qt
+Qt
+Qt
+Vk
 jm
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Wv
+qP
 YV
 JN
 YV
@@ -3652,7 +3607,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 Wx
 wI
@@ -3662,38 +3617,38 @@ Yw
 jV
 Wx
 Pr
-yN
+TQ
 YV
 YV
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Ym
-Ym
-Ym
-Ym
-Ty
+YV
+YV
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+Qt
+Qt
+Qt
+Qt
+Vk
 gm
-Ym
+Qt
 Th
-Ty
+Vk
 jm
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Wv
+Qt
+SG
+Qt
+Qt
+Qt
+Qt
+qP
 YV
 JN
 YV
@@ -3714,7 +3669,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 Wx
 yA
@@ -3724,8 +3679,8 @@ Uk
 lz
 Wx
 Pr
-yN
-cK
+TQ
+xH
 YV
 YV
 YV
@@ -3738,24 +3693,24 @@ YV
 YV
 YV
 YV
-Wv
-Wv
-Wv
-Wv
-Wv
-Ty
+qP
+qP
+qP
+qP
+qP
+Vk
 gm
-Ym
+Qt
 St
-Ty
+Vk
 jm
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Wv
+qP
 YV
 JN
 YV
@@ -3805,19 +3760,19 @@ YV
 YV
 YV
 YV
-Wv
-Wv
-Wv
-Wv
-Ty
+qP
+qP
+qP
+qP
+Vk
 jm
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Wv
+Qt
+Qt
+Qt
+Qt
+Qt
+Qt
+qP
 JN
 JN
 YV
@@ -3838,7 +3793,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 wx
 yK
@@ -3848,7 +3803,7 @@ wj
 EW
 jd
 Pr
-yN
+TQ
 JN
 YV
 YV
@@ -3864,29 +3819,29 @@ qz
 YV
 YV
 YV
-bx
+yq
 YV
 YV
 YV
 YV
 YV
 YV
-Wv
+qP
 jm
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Ym
+Qt
 TJ
-Wv
+qP
 JN
-Ty
-Ty
+Vk
+Vk
 HP
 HP
-Ty
-Ty
+Vk
+Vk
 YV
 YV
 ai
@@ -3900,7 +3855,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 wF
 BD
@@ -3910,7 +3865,7 @@ Jd
 Zw
 wF
 Pr
-yN
+TQ
 JN
 JN
 YV
@@ -3933,22 +3888,22 @@ YV
 YV
 YV
 YV
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
+qP
 JN
-Ty
+Vk
 Oi
-yN
-yN
-jT
-Ty
+TQ
+TQ
+Sy
+Vk
 YV
 YV
 ai
@@ -4005,12 +3960,12 @@ YV
 YV
 YV
 JN
-Ty
+Vk
 wv
-yN
-yN
-qk
-Ty
+TQ
+TQ
+dO
+Vk
 YV
 YV
 ai
@@ -4024,7 +3979,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 Wx
 BV
@@ -4034,7 +3989,7 @@ Qw
 YB
 Wx
 Pr
-yN
+TQ
 YV
 JN
 JN
@@ -4052,7 +4007,7 @@ YV
 YV
 YV
 YV
-ou
+sL
 YV
 lE
 YV
@@ -4067,12 +4022,12 @@ YV
 YV
 JN
 JN
-Ty
-dG
-yN
-yN
-vD
-Ty
+Vk
+Ub
+TQ
+TQ
+ua
+Vk
 YV
 YV
 ai
@@ -4086,7 +4041,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
 MJ
 EU
@@ -4096,7 +4051,7 @@ TL
 id
 MJ
 Pr
-yN
+TQ
 YV
 JN
 JN
@@ -4129,12 +4084,12 @@ JN
 JN
 JN
 YV
-Ty
-Kf
-yN
-yN
-mN
-Ty
+Vk
+dw
+TQ
+TQ
+gh
+Vk
 YV
 YV
 ai
@@ -4191,12 +4146,12 @@ YV
 YV
 YV
 YV
-Ty
-cA
-yN
-yN
-hS
-Ty
+Vk
+VV
+TQ
+TQ
+qv
+Vk
 YV
 YV
 ai
@@ -4210,17 +4165,17 @@ YV
 ai
 YV
 YV
-yN
+TQ
 mL
-yN
+TQ
 MJ
 MJ
 MJ
 MJ
 MJ
-yN
+TQ
 Pr
-yN
+TQ
 YV
 YV
 JN
@@ -4253,12 +4208,12 @@ YV
 YV
 YV
 YV
-Ty
-sk
-yN
-yN
-vj
-Ty
+Vk
+ot
+TQ
+TQ
+XE
+Vk
 YV
 YV
 ai
@@ -4272,7 +4227,7 @@ YV
 ai
 YV
 YV
-yN
+TQ
 rk
 yJ
 yJ
@@ -4282,7 +4237,7 @@ yJ
 yJ
 yJ
 jU
-yN
+TQ
 YV
 YV
 YV
@@ -4315,12 +4270,12 @@ YV
 YV
 YV
 YV
-Ty
-Ty
-Ty
-Ty
-Ty
-Ty
+Vk
+Vk
+Vk
+Vk
+Vk
+Vk
 YV
 YV
 ai
@@ -4335,15 +4290,15 @@ ai
 YV
 YV
 XT
-yN
-yN
-yN
-yN
-yN
-yN
-yN
-yN
-yN
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
+TQ
 XT
 YV
 YV
