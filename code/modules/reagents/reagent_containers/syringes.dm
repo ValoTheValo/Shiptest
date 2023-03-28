@@ -5,6 +5,7 @@
 	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
 	icon_state = "syringe_0"
+	base_icon_state = "syringe"
 	amount_per_transfer_from_this = 5
 	possible_transfer_amounts = list()
 	volume = 15
@@ -302,3 +303,13 @@
 
 /obj/item/reagent_containers/syringe/contraband/morphine
 	list_reagents = list(/datum/reagent/medicine/morphine = 15)
+
+/obj/item/reagent_containers/syringe/thializid
+	name = "syringe (thializid)"
+	desc = "Contains thializid, used to treat toxins and purge chemicals.The tag on the syringe states 'Inject one time per minute'"
+	list_reagents = list(/datum/reagent/medicine/thializid = 15)
+
+/obj/item/reagent_containers/syringe/charcoal
+	name = "syringe (charcoal)"
+	desc = "Contains charcoal."
+	list_reagents = list(/datum/reagent/medicine/charcoal = 15)
